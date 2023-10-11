@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkcar_sharing=self.webpackChunkcar_sharing||[]).push([[634],{7634:function(n,r,e){e.r(r),e.d(r,{default:function(){return u}});var a,c=e(168),i=e(6088).Z.div(a||(a=(0,c.Z)(["\n  padding: 60px 128px;\n"]))),t=e(3329);function u(){return(0,t.jsx)(i,{children:(0,t.jsx)("h2",{children:"Choose your favorite car to rent"})})}}}]);
+//# sourceMappingURL=634.53d2e400.chunk.js.map

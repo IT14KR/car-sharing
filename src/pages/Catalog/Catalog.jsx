@@ -14,7 +14,7 @@ export default function Catalog() {
   const [allCars, setAllCars] = useState([]);
   const { data, error, isLoading, isFetching } = useGetCarsByPageQuery(page);
   const { data: allAdverts } = useGetAdvertsQuery();
-
+  
   const [filters, setFilters] = useState({
     make: '',
     filteredPrices: [],
@@ -32,6 +32,7 @@ export default function Catalog() {
     if (data) {
       setAllCars(prevCatalog => [...prevCatalog, ...data]);
     }
+    
   }, [data]);
 
   useEffect(() => {

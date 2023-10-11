@@ -8,6 +8,6 @@ export const Wrapper = styled.div`
   background-size: cover;
   background-position: center;
 
-  height: 600px;
+  height: 700px;
   padding: 60px 128px;
 `;
